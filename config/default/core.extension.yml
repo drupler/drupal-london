@@ -21,7 +21,6 @@ module:
   chosen_lib: 0
   ckeditor: 0
   ckeditorheight: 0
-  color: 0
   components: 0
   config: 0
   config_filter: 0
@@ -109,7 +108,6 @@ module:
   path_alias: 0
   phpass: 0
   quicklink: 0
-  rdf: 0
   redirect: 0
   redirect_404: 0
   responsive_image: 0
