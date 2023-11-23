@@ -1,6 +1,14 @@
 _core:
   default_config_hash: 71Y3K9oxmFuwkWaYw8LH0B28BrEXuNC3QI2j2oC9fGw
+<<<<<<< HEAD
 langcode: en
 offset: 1.0
+||||||| parent of 820e79b (Updates config export after D10 upgrade)
+langcode: nl
+offset: !!float 1
+=======
+langcode: nl
+offset: 1.0
+>>>>>>> 820e79b (Updates config export after D10 upgrade)
 line_height: 1.5
 unit: em
