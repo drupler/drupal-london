@@ -134,7 +134,7 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "oomphinc/composer-installers-extender": true,
-            "lemberg/draft-environment": false
+            "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "platform": {
             "php": "8.2"
@@ -227,6 +227,7 @@
         }
     },
     "require-dev": {
+        "drupal/coder": "^8.3",
         "drupal/devel": "^5.1",
         "drupal/stage_file_proxy": "^2.1",
         "mglaman/drupal-check": "^1.4"
