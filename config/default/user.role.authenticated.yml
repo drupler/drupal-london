@@ -1,5 +1,5 @@
 uuid: e8fb6344-2afa-4d31-bb5d-0d2579294add
-langcode: nl
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,6 +7,7 @@ dependencies:
     - filter.format.simple_html
   module:
     - eu_cookie_compliance
+    - file
     - filter
     - media
     - shortcut
@@ -14,12 +15,13 @@ dependencies:
 _core:
   default_config_hash: eOOnKrhRCCCbtd3OuxtPSzdWh4hgPgBcnj43Wx9Y0cw
 id: authenticated
-label: 'Geverifieerde gebruiker'
+label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
   - 'access shortcuts'
+  - 'delete own files'
   - 'display eu cookie compliance popup'
   - 'use text format basic_html'
   - 'use text format simple_html'
