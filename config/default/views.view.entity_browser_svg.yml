@@ -550,7 +550,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_svg'
@@ -568,7 +567,6 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
-        - user
         - user.permissions
       tags:
         - 'config:field.storage.media.field_media_svg'

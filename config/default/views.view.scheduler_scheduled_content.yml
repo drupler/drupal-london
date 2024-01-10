@@ -13,7 +13,7 @@ dependencies:
 _core:
   default_config_hash: VSN_nNHAqEdSY16jJzqWGfpeCF24AnLKYi5t9xHSUtE
 id: scheduler_scheduled_content
-label: 'Scheduled Content'
+label: 'Scheduled content'
 module: views
 description: 'Find and manage scheduled content.'
 tag: ''
@@ -1028,8 +1028,8 @@ display:
       path: admin/content/scheduled
       menu:
         type: normal
-        title: 'Scheduled Content'
-        description: 'Content that is scheduled for publishing or unpublishing'
+        title: Scheduled
+        description: 'Content scheduled for publishing and unpublishing'
         weight: -10
         expanded: false
         menu_name: admin
@@ -1053,7 +1053,7 @@ display:
       tags: {  }
   user_page:
     id: user_page
-    display_title: User
+    display_title: 'User profile tab'
     display_plugin: page
     position: 2
     display_options:
@@ -1094,7 +1094,6 @@ display:
           default_argument_type: fixed
           default_argument_options:
             argument: ''
-          default_argument_skip_url: false
           summary_options:
             base_path: ''
             count: true

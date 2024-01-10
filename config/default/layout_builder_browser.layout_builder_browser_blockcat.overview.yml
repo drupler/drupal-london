@@ -5,3 +5,4 @@ dependencies: {  }
 id: overview
 label: Overview
 weight: -7
+opened: true

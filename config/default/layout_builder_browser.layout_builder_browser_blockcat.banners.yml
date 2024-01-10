@@ -5,3 +5,4 @@ dependencies: {  }
 id: banners
 label: Banners
 weight: -10
+opened: true
