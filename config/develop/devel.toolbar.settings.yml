@@ -1,6 +1,6 @@
 _core:
   default_config_hash: ysHEvvazIuaJ5BdY0dUw2_my_Q5hM8ypdXwFfaIrvMw
-langcode: nl
+langcode: en
 toolbar_items:
   - devel.admin_settings_link
   - devel.cache_clear

@@ -1,8 +1,9 @@
 _core:
   default_config_hash: wB2h-QBawANCiCVEXy6bJjiDfvZY6EONZ6-wRB_RYQc
-langcode: nl
+langcode: en
 hotlink: false
-origin: 'https://drupal.nl'
+origin: 'https://drupal.eu'
 origin_dir: sites/default/files
+proxy_headers: ''
 use_imagecache_root: true
 verify: true
