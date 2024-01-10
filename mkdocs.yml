@@ -31,5 +31,6 @@ theme:
 nav:
   - Home: 'index.md'
   - About:
-    - License: 'about/license.md'
     - Releases: 'about/releases.md'
+    - Authors: 'about/authors.md'
+    - License: 'about/license.md'
