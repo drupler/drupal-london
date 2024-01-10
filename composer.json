@@ -110,6 +110,7 @@
         "drupal/smart_trim": "^2.1",
         "drupal/svg_image_field": "^2.3",
         "drupal/svg_upload_sanitizer": "^1.4",
+        "drupal/symfony_mailer": "^1.4",
         "drupal/system_status": "2.x-dev@dev",
         "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^3.2",
