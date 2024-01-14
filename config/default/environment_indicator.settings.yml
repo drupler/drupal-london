@@ -1,7 +1,0 @@
-_core:
-  default_config_hash: fCKNhwk3kMAMOCP1SvJzVbKWCTy3iV8WbE3nw93sMe0
-langcode: en
-toolbar_integration:
-  - toolbar
-favicon: true
-git: true
