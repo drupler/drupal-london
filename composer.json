@@ -127,7 +127,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
@@ -237,9 +237,6 @@
     },
     "require-dev": {
         "drupal/coder": "^8.3",
-        "drupal/core-dev": "^10.1",
-        "drupal/devel": "^5.1",
-        "drupal/stage_file_proxy": "^2.1",
         "mglaman/drupal-check": "^1.4",
         "phpunit/phpunit": "^9.6"
     }
