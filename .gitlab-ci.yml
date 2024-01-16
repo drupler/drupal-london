@@ -1,0 +1,18 @@
+include:
+  - project: $_GITLAB_TEMPLATES_REPO
+    ref: $_GITLAB_TEMPLATES_REF
+    file:
+      - '/includes/include.drupalci.main.yml'
+      - '/includes/include.drupalci.variables.yml'
+      - '/includes/include.drupalci.workflows.yml'
+
+variables:
+  _SHOW_ENVIRONMENT_VARIABLES: 1
+  SKIP_COMPOSER: 1
+  SKIP_COMPOSER_LINT: 1
+  SKIP_ESLINT: 1
+  SKIP_PHPCS: 1
+  SKIP_PHPSTAN: 1
+  SKIP_PHPUNIT: 1
+  SKIP_STYLELINT: 1
+
