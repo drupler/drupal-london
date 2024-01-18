@@ -105,7 +105,7 @@
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
         "drupal/simple_sitemap": "^4.1",
-        "drupal/site_settings": "^1.20",
+        "drupal/site_settings": "1.x-dev@dev",
         "drupal/sitemap": "^2.0@beta",
         "drupal/smart_trim": "^2.1",
         "drupal/svg_image_field": "^2.3",
