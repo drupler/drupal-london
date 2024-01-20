@@ -1,9 +1,5 @@
-theme: seven
+theme: themekit
 defaults:
-  sender: swiftmailer
-  formatter: swiftmailer
-modules:
-  swiftmailer:
-    none:
-      sender: swiftmailer
-      formatter: swiftmailer
+  sender: symfony_mailer
+  formatter: symfony_mailer
+modules: null
