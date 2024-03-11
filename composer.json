@@ -224,9 +224,6 @@
             "drupal/redirect": {
                "[#3373123] Setting 'Enforce clean and canonical URLs.' breaks CSS aggregation on multilingual Drupal 10.1.x with browser caching enabled": "https://www.drupal.org/files/issues/2023-11-01/3373123_redirect_dont-normalize-assets.patch" 
             },
-            "drupal/system_status": {
-                "[#3299281] Automated Drupal 10 compatibility fixes": "https://www.drupal.org/files/issues/2023-02-15/system_status-drupal_10_compatibility-3299281-7.patch"
-            },
             "drupal/ultimate_cron": {
                 "[#3370283] PHP 8.2 / CronRule.php does not handle all variables properly": "https://www.drupal.org/files/issues/2023-06-26/3370283.patch"
             },
