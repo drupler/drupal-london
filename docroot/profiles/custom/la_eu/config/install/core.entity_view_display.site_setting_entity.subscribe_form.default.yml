@@ -14,6 +14,14 @@ targetEntityType: site_setting_entity
 bundle: subscribe_form
 mode: default
 content:
+  description:
+    label: above
+    type: string
+    region: content
+    weight: 3
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_heading:
     type: string
     label: hidden
