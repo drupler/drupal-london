@@ -1,0 +1,46 @@
+display:
+  default:
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Ago
+        uid:
+          label: Aŭtoro
+        status:
+          label: Stato
+          settings:
+            format_custom_true: Publikigita
+        operations:
+          label: Operacioj
+      pager:
+        options:
+          tags:
+            next: 'sekva ›'
+            previous: '‹ antaŭa'
+            first: '« unua'
+            last: 'fina »'
+          expose:
+            items_per_page_options_all_label: '- Ĉio -'
+      exposed_form:
+        options:
+          submit_button: Filtrilo
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
+      filters:
+        bundle:
+          expose:
+            label: Tipo
+        status:
+          expose:
+            label: Stato
+          group_info:
+            group_items:
+              1:
+                title: Publikigita
+        langcode:
+          expose:
+            label: Lingvo
+  user_page:
+    display_title: Uzanto

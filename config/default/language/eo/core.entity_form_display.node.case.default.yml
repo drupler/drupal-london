@@ -1,0 +1,10 @@
+third_party_settings:
+  field_group:
+    group_contents:
+      label: Enhavo
+    group_category:
+      label: Kategorio
+content:
+  field_components:
+    settings:
+      title: Komponanto

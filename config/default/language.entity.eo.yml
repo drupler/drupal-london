@@ -1,0 +1,11 @@
+uuid: edcf41a2-45bf-47c5-9088-149d0830065d
+langcode: eo
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6YRgxR4Hk_ou6iQuk1_6DpH9h1ERmQjNAg_LinKaE6w
+id: eo
+label: Esperanto
+direction: ltr
+weight: -10
+locked: false

@@ -1,0 +1,45 @@
+display:
+  default:
+    display_title: Defaŭlto
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apliku
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
+  cases:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Ĉio -'
+      arguments:
+        field_reference_target_id:
+          exception:
+            title: Ĉiuj
+  category:
+    display_title: Kategorio
+    display_options:
+      arguments:
+        field_category_target_id:
+          exception:
+            title: Ĉiuj
+  listing:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_options_all_label: '- Ĉio -'
+      exposed_form:
+        options:
+          submit_button: Serĉu
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
+      filters:
+        title:
+          group_info:
+            label: Titolo

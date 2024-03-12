@@ -1,0 +1,13 @@
+label: 'Laste aldonitaj'
+display:
+  default:
+    display_title: Defaŭlto
+    display_options:
+      title: 'Laste aldonitaj'
+      exposed_form:
+        options:
+          submit_button: Apliku
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
