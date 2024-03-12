@@ -11,6 +11,14 @@ targetEntityType: site_setting_entity
 bundle: footer_copyright
 mode: default
 content:
+  description:
+    label: above
+    type: string
+    region: content
+    weight: 1
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
   field_text:
     type: text_default
     label: hidden
