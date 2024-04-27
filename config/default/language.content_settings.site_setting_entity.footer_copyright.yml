@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - site_settings.site_setting_entity_type.footer_copyright
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 1NUnQTpKNAPR123tIn4PRiRLNm5c6yUS-uRNU9cCIds
 id: site_setting_entity.footer_copyright

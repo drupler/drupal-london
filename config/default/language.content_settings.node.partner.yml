@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - node.type.partner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '1'
 _core:
   default_config_hash: COusuOKalyf7RvCZvI78BDEFm9l1ZE3G6wQPz7ntqcY
 id: node.partner

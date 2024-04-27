@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - taxonomy.vocabulary.video_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 6d4zPhrcMqc154EC5594s2ZjK66JY4c1TK1IhK0-kiQ
 id: taxonomy_term.video_type

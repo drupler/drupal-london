@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - block_content.type.news_slider
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: tym85IF4z3dEjkZdhToRZz9jb1oGBwGFSZJniuG3tUM
 id: block_content.news_slider

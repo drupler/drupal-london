@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - block_content.type.simple_banner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 1di5XpZFJcYDmBR1mNzoINBlRaK8XAL0uul5-ZBeWbg
 id: block_content.simple_banner

@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.feature
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: 4J1oLfe7VX_G_pKES14E_pCwYCKpuywuzK3kVpn2Nus
 id: paragraph.feature

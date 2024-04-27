@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - taxonomy.vocabulary.audio_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: udgu7RO2kLodM8Ke-Rqf8u5ocuoRFowSD549Gf1ClSw
 id: taxonomy_term.audio_type

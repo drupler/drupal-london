@@ -17,7 +17,7 @@ bundle: subscribe_form
 label: Text
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

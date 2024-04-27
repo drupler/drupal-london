@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - block_content.type.community_features
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: MPZXCv6U16FIZiEbwNum1NwSlovezBGyTgOhmS4bMiM
 id: block_content.community_features

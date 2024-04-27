@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - taxonomy.vocabulary.category
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: kV6e7PcOiFn3qPdtUFTHzHnpX246XLw-dbgEwLccwIY
 id: taxonomy_term.category

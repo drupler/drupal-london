@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - shortcut.set.default
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: xQhEJQZcdZ0CPPqcAcXzGh6mpRHQpOCmBvT9chdFwjM
 id: shortcut.default

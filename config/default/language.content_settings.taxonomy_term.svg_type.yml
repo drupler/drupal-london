@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - taxonomy.vocabulary.svg_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: MDFMOD10wm4FdjrjFy_7z1O-98WME24an8xkk3LxSuw
 id: taxonomy_term.svg_type

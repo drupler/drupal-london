@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - paragraphs.paragraphs_type.image_slider
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: Qn_qlBlD0BRh-iqlJleOTQd6S1G1rFgl2x2ZzY1hgQo
 id: paragraph.image_slider

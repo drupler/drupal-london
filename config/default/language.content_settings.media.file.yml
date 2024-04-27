@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - media.type.file
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
 _core:
   default_config_hash: Zl4gPSq2VUx14nis4-mNlvkoAKMHHHvU-1DOuPhA-nk
 id: media.file
