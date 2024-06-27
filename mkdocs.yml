@@ -1,0 +1,39 @@
+site_name: Local Association (EU)
+repo_url: https://git.drupalcode.org/project/la_eu
+repo_name: drupal/la_eu
+edit_uri: /-/edit/1.0.x/docs/
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: blue
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+nav:
+  - Home: 'index.md'
+  - About:
+      - Releases: 'la_eu/releases.md'
+      - Authors: 'la_eu/authors.md'
+      - License: 'la_eu/license.md'
+  - Contribute: 'contribute.md'
+  - Setup: 'setup.md'
+  - Theme: 'theme.md'
