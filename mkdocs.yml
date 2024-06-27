@@ -47,10 +47,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
   - Home: 'index.md'
-  - About:
-      - Releases: 'la_eu/releases.md'
-      - Authors: 'la_eu/authors.md'
-      - License: 'la_eu/license.md'
   - Contribute: 'contribute.md'
   - Setup: 'setup.md'
   - Theme: 'theme.md'
