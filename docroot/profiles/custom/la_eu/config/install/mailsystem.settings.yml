@@ -1,5 +1,0 @@
-theme: themekit
-defaults:
-  sender: symfony_mailer
-  formatter: symfony_mailer
-modules: null
