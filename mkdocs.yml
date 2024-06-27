@@ -16,7 +16,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       primary: blue
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -31,6 +31,9 @@ theme:
 nav:
   - Home: 'index.md'
   - About:
-    - Releases: 'about/releases.md'
-    - Authors: 'about/authors.md'
-    - License: 'about/license.md'
+      - Releases: 'la_eu/releases.md'
+      - Authors: 'la_eu/authors.md'
+      - License: 'la_eu/license.md'
+  - Contribute: 'contribute.md'
+  - Setup: 'setup.md'
+  - Theme: 'theme.md'
