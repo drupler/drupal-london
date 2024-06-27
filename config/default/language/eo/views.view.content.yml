@@ -1,0 +1,45 @@
+label: Enhavo
+display:
+  default:
+    display_title: Defaŭlto
+    display_options:
+      title: Enhavo
+      fields:
+        title:
+          label: Titolo
+        name:
+          label: Aŭtoro
+        status:
+          label: Stato
+          settings:
+            format_custom_true: Publikigita
+        operations:
+          label: Operacioj
+      exposed_form:
+        options:
+          submit_button: Filtrilo
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
+      filters:
+        status:
+          expose:
+            label: Stato
+          group_info:
+            group_items:
+              1:
+                title: Publikigita
+        title:
+          expose:
+            label: Titolo
+        langcode:
+          expose:
+            label: Lingvo
+  page_1:
+    display_title: Paĝo
+    display_options:
+      menu:
+        title: Enhavo
+      tab_options:
+        title: Enhavo

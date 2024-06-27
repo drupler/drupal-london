@@ -1,0 +1,21 @@
+display:
+  default:
+    display_title: Defaŭlto
+    display_options:
+      title: 'Kiu estas enrete'
+      exposed_form:
+        options:
+          submit_button: Apliku
+          reset_button_label: Restarigu
+          exposed_sorts_label: 'Ordigu laŭ'
+          sort_asc_label: kreske
+          sort_desc_label: malkreske
+      filters:
+        access:
+          expose:
+            label: 'Lasta aliro'
+            description: 'Uzanto estas konsiderata ensalutinta ĉi tiom longe post kiam tiu laste vidis paĝon.'
+  who_s_online_block:
+    display_title: 'Kiu estas enrete'
+    display_options:
+      block_description: 'Kiu estas enrete'
