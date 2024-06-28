@@ -6,6 +6,7 @@ installation.
 You can follow the setup instructions [here](setup.md).
 
 In order to contribute to this project, you need to follow these instructions:
+
 - Use the issue queue: https://www.drupal.org/project/issues/la_eu
 - Scan the issue queue first to make sure that there is no existing issue
 already present. If there is one, use that one. Collaboration first rather than
