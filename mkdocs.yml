@@ -16,7 +16,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       primary: blue
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -28,9 +28,29 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
   - Home: 'index.md'
   - About:
-    - Releases: 'about/releases.md'
-    - Authors: 'about/authors.md'
-    - License: 'about/license.md'
+      - Releases: 'la_eu/releases.md'
+      - Authors: 'la_eu/authors.md'
+      - License: 'la_eu/license.md'
+  - Contribute: 'contribute.md'
+  - Setup: 'setup.md'
+  - Theme: 'theme.md'
