@@ -10,6 +10,7 @@ You need to bring all the code first, and then the database. We will use
 Set up the project on your local machine from scratch.
 **You might lose existing work if you already have it**.
 ```
+ddev config --docroot=docroot --project-type=drupal
 ./local-setup.sh
 ```
 
@@ -21,6 +22,7 @@ Bring the latest code from the default branch:
 ```
 git checkout 1.0.x
 git pull
+ddev config --docroot=docroot --project-type=drupal
 ddev start
 ddev composer install
 ```
