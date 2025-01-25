@@ -5,7 +5,7 @@
 
 "https://{default}/":
     type: upstream
-    upstream: "drupal:http"
+    upstream: "drupal_london:http"
     cache:
       enabled: true
 
@@ -15,3 +15,10 @@
 "https://www.{default}/":
     type: redirect
     to: "https://{default}/"
+
+
+    # The routes of the project.
+#
+# Each route describes how an incoming URL is going
+# to be processed by Platform.sh.
+
