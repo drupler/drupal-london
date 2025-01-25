@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94851bfdc4e8bd4ee685b66ec582904a",
+    "content-hash": "85f22d9434a7835a9baa6bf3fda63e5f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2833,6 +2833,58 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/crop",
                 "issues": "https://www.drupal.org/project/issues/crop"
+            }
+        },
+        {
+            "name": "drupal/crossword",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/crossword.git",
+                "reference": "2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/crossword-2.0.3.zip",
+                "reference": "2.0.3",
+                "shasum": "174f1a7878ed13201b426c3416cad16d67a51ef0"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11",
+                "masterminds/html5": "^2.0"
+            },
+            "require-dev": {
+                "drupal/crossword_image": "*",
+                "drupal/crossword_media": "*",
+                "drupal/crossword_token": "*",
+                "drupal/file_download_link": "^2.0.x-dev",
+                "drupal/token": "1.x-dev"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.3",
+                    "datestamp": "1726066431",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "danflanagan8",
+                    "homepage": "https://www.drupal.org/user/3615359"
+                }
+            ],
+            "description": "Adds Crossword field that turns uploaded Across Lite text files into playable puzzles.",
+            "homepage": "https://drupal.org/project/crossword",
+            "support": {
+                "source": "https://git.drupalcode.org/project/crossword"
             }
         },
         {
@@ -16066,10 +16118,10 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.2"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
