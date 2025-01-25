@@ -32,8 +32,8 @@ _core:
   default_config_hash: S9pYimReoIY3cpthtidKoBVe0jvV-dddjuaOD0AEynw
 name: News
 type: news
-description: ''
-help: ''
+description: null
+help: null
 new_revision: true
 preview_mode: 0
 display_submitted: false

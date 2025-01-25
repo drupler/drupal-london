@@ -8,6 +8,6 @@ id: categories
 block_id: 'inline_block:categories'
 category: structured
 label: Categories
-weight: -4
 image_path: ''
 image_alt: ''
+weight: -4

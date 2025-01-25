@@ -32,8 +32,8 @@ _core:
   default_config_hash: 5yEvbLvKkISOe9Gz9JOITwmwRAReu1NgBRN3fCdHtSA
 name: Partner
 type: partner
-description: ''
-help: ''
+description: null
+help: null
 new_revision: true
 preview_mode: 0
 display_submitted: false

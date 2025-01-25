@@ -314,7 +314,7 @@ display:
           exposed: false
           draggable_views_reference: 'partners:order'
           draggable_views_null_order: after
-          draggable_views_pass_arguments: false
+          draggable_views_pass_arguments: 0
       style:
         type: default
         options:
@@ -587,7 +587,7 @@ display:
           exposed: false
           draggable_views_reference: 'partners:order'
           draggable_views_null_order: after
-          draggable_views_pass_arguments: false
+          draggable_views_pass_arguments: 0
       style:
         type: table
         options:

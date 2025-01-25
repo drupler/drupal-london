@@ -124,8 +124,8 @@ module:
   serialization: 0
   shortcut: 0
   simple_sitemap: 0
-  sitemap: 0
   site_settings: 0
+  sitemap: 0
   smart_trim: 0
   svg_image_field: 0
   svg_upload_sanitizer: 0

@@ -32,8 +32,8 @@ _core:
   default_config_hash: koOYy7SQ40w0ggTCOBsY31lwGrM94vo39-sdaBMzsGs
 name: Event
 type: event
-description: ''
-help: ''
+description: null
+help: null
 new_revision: true
 preview_mode: 0
 display_submitted: false

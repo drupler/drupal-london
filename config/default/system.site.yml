@@ -1,5 +1,7 @@
 _core:
   default_config_hash: ltW87nIAJKA2OUaHqcnrZ-YPy496CNMyDHN8KQjVxB4
+langcode: en
+uuid: 5ec6e0aa-fe06-40a1-a153-a2223dd1ea7a
 name: 'Drush Site-Install'
 mail: admin@example.com
 slogan: 'The Open Source DXP: Drupal.'
@@ -11,5 +13,3 @@ admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
 mail_notification: ''
-langcode: en
-uuid: 5ec6e0aa-fe06-40a1-a153-a2223dd1ea7a

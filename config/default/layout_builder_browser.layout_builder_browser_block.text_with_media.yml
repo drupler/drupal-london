@@ -8,6 +8,6 @@ id: text_with_media
 block_id: 'inline_block:text_with_media'
 category: flexible
 label: 'Text with Media'
-weight: -100
 image_path: ''
 image_alt: ''
+weight: -100

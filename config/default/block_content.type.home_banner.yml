@@ -6,5 +6,5 @@ _core:
   default_config_hash: u6cnpDoGfJJBAvi9ZpK-7mQANThyLGf_qfSu-JPEfnk
 id: home_banner
 label: 'Homepage Banner'
-revision: 0
+revision: false
 description: ''

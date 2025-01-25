@@ -6,5 +6,5 @@ _core:
   default_config_hash: fbqv69Mfn7Q-4pAE9x-SyXA-QpodiyjIf-Ukik5flo8
 id: news_slider
 label: 'News Slider'
-revision: 0
+revision: false
 description: ''

@@ -8,6 +8,6 @@ id: basic_banner
 block_id: 'inline_block:basic_banner'
 category: banners
 label: 'Basic Banner'
-weight: -100
 image_path: ''
 image_alt: ''
+weight: -100

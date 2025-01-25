@@ -6,5 +6,6 @@ _core:
   default_config_hash: 87cCwkoVoKuTMmAL6_l3jPzVdeOaasXtLyCdDuwj4_I
 name: 'Sponsorship Level'
 vid: sponsorship_level
-description: ''
+description: null
 weight: 0
+new_revision: false

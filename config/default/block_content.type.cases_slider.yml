@@ -6,5 +6,5 @@ _core:
   default_config_hash: WVDPYmWrVe4xR3zqrKLnCnB0ID1zhMGwATauvidD53o
 id: cases_slider
 label: 'Cases Slider'
-revision: 0
+revision: false
 description: ''

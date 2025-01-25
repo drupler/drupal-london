@@ -8,6 +8,6 @@ id: categories_listing
 block_id: 'views_block:categories-listing'
 category: overview
 label: 'Categories Listing'
-weight: -5
 image_path: ''
 image_alt: ''
+weight: -5

@@ -32,8 +32,8 @@ _core:
   default_config_hash: bjHXMCKWKNl1EbYPxkT7Xhgdt4C8NSEFLYoeMlCRalM
 name: Case
 type: case
-description: ''
-help: ''
+description: null
+help: null
 new_revision: true
 preview_mode: 0
 display_submitted: false

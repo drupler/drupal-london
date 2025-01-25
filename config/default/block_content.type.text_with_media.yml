@@ -6,5 +6,5 @@ _core:
   default_config_hash: 82cZJ6_zOowCPU7ISSbLY8sBMiUuNINMOmCP-r-oWvE
 id: text_with_media
 label: 'Text with Media'
-revision: 0
+revision: false
 description: ''
