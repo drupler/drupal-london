@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.event.body
     - field.field.node.event.field_address
+    - field.field.node.event.field_crossword
     - field.field.node.event.field_date_range
     - field.field.node.event.field_image
     - field.field.node.event.field_intro
@@ -13,6 +14,7 @@ dependencies:
   module:
     - address
     - address_map_link
+    - crossword
     - datetime_range
     - media_responsive_thumbnail
     - text
@@ -49,13 +51,70 @@ content:
         map_link_new_window: true
     weight: 6
     region: content
+  field_crossword:
+    type: crossword
+    label: hidden
+    settings:
+      redacted: false
+      print: true
+      congrats: 'Well done!'
+      details:
+        title_tag: h2
+        author_tag: p
+        notepad_tag: p
+      buttons:
+        class: crossword-button
+        buttons:
+          cheat:
+            show: true
+            input_label: Cheat
+            confirm: ''
+          solution:
+            show: true
+            input_label: Solution
+            confirm: 'Do you really want to give up?'
+          clear:
+            show: true
+            input_label: Clear
+            confirm: 'Do you really want to clear? This action cannot be undone.'
+          undo:
+            show: true
+            input_label: Undo
+            confirm: ''
+          redo:
+            show: true
+            input_label: Redo
+            confirm: ''
+          instructions:
+            show: true
+            input_label: Instructions
+            confirm: ''
+      clues:
+        do_not_render: false
+        show: false
+        checked: false
+        input_label: 'Show Clues'
+      errors:
+        show: true
+        checked: false
+        input_label: 'Show Errors'
+      references:
+        show: true
+        checked: true
+        input_label: 'Show References'
+      rebus:
+        show: false
+        input_label: 'Rebus entry active'
+    third_party_settings: {  }
+    weight: 7
+    region: content
   field_date_range:
-    type: daterange_custom
+    type: daterange_default
     label: hidden
     settings:
       timezone_override: ''
-      date_format: 'Y-m-d\TH:i:s'
-      from_to: start_date
+      format_type: short
+      from_to: both
       separator: '-'
     third_party_settings: {  }
     weight: 5

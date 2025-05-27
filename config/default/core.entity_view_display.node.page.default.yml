@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_crossword
     - field.field.node.page.field_metatags
     - node.type.page
   module:
+    - crossword
     - text
     - user
 _core:
@@ -22,6 +24,63 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_crossword:
+    type: crossword
+    label: hidden
+    settings:
+      redacted: false
+      print: true
+      congrats: 'Well done!'
+      details:
+        title_tag: h2
+        author_tag: p
+        notepad_tag: p
+      buttons:
+        class: crossword-button
+        buttons:
+          cheat:
+            show: true
+            input_label: Cheat
+            confirm: ''
+          solution:
+            show: true
+            input_label: Solution
+            confirm: 'Do you really want to give up?'
+          clear:
+            show: true
+            input_label: Clear
+            confirm: 'Do you really want to clear? This action cannot be undone.'
+          undo:
+            show: true
+            input_label: Undo
+            confirm: ''
+          redo:
+            show: true
+            input_label: Redo
+            confirm: ''
+          instructions:
+            show: true
+            input_label: Instructions
+            confirm: ''
+      clues:
+        do_not_render: false
+        show: false
+        checked: false
+        input_label: 'Show Clues'
+      errors:
+        show: true
+        checked: false
+        input_label: 'Show Errors'
+      references:
+        show: true
+        checked: true
+        input_label: 'Show References'
+      rebus:
+        show: false
+        input_label: 'Rebus entry active'
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   content_moderation_control: true

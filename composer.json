@@ -53,6 +53,7 @@
         "drupal/field_group": "^3.4",
         "drupal/field_hidden": "^2.1",
         "drupal/field_tools": "^1.0@alpha",
+        "drupal/file_download_link": "^2.0",
         "drupal/focal_point": "^2.0",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",

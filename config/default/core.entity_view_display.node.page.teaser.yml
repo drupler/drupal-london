@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_crossword
     - field.field.node.page.field_metatags
     - node.type.page
   module:
@@ -36,5 +37,6 @@ content:
     weight: 101
     region: content
 hidden:
+  field_crossword: true
   field_metatags: true
   langcode: true

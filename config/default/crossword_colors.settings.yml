@@ -1,0 +1,7 @@
+_core:
+  default_config_hash: sqx9Ygz-Y63o2OJjBaXQGMjqzgzOKqdnbnvfzcVpVws
+active_highlight: '#88ccff'
+active_square: '#1892ef'
+reference_highlight: '#ccccff'
+reference_text: '#8888cc'
+error_text: '#aa0000'

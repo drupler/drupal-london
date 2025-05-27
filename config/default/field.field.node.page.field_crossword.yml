@@ -1,16 +1,16 @@
-uuid: 6c7331eb-3b1d-4118-9834-f8f740661ad7
+uuid: b25a83ba-1001-40b5-a38c-8fe6998734e5
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_crossword
-    - node.type.news
+    - node.type.page
   module:
     - crossword
-id: node.news.field_crossword
+id: node.page.field_crossword
 field_name: field_crossword
 entity_type: node
-bundle: news
+bundle: page
 label: Crossword
 description: ''
 required: false
@@ -25,10 +25,10 @@ settings:
   max_filesize: ''
   description_field: true
   allowed_parsers:
-    crossword_compiler_xml: false
-    across_lite_text: false
-    across_lite_puz: false
-    ipuz: false
+    crossword_compiler_xml: true
+    across_lite_text: true
+    across_lite_puz: true
+    ipuz: true
   max_columns: 0
   min_columns: null
   max_rows: null

@@ -20,7 +20,7 @@ translatable: true
 default_value:
   -
     langcode: null
-    country_code: GB
+    country_code: NL
     administrative_area: null
     locality: ''
     dependent_locality: null
@@ -44,7 +44,7 @@ settings:
     familyName:
       override: hidden
     organization:
-      override: optional
+      override: hidden
     addressLine1:
       override: optional
     addressLine2:

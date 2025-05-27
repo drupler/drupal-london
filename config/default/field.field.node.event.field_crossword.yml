@@ -1,16 +1,16 @@
-uuid: 6c7331eb-3b1d-4118-9834-f8f740661ad7
+uuid: a6098409-a333-4d20-b0d5-51f6d164b425
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_crossword
-    - node.type.news
+    - node.type.event
   module:
     - crossword
-id: node.news.field_crossword
+id: node.event.field_crossword
 field_name: field_crossword
 entity_type: node
-bundle: news
+bundle: event
 label: Crossword
 description: ''
 required: false

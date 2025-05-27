@@ -30,17 +30,17 @@ content:
     region: content
   field_crossword:
     type: crossword
-    label: visually_hidden
+    label: hidden
     settings:
       redacted: false
       print: true
       congrats: 'Well done!'
       details:
         title_tag: h2
-        author_tag: h3
+        author_tag: p
         notepad_tag: p
       buttons:
-        class: ''
+        class: crossword-button
         buttons:
           cheat:
             show: true
